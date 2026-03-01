@@ -7,6 +7,10 @@ import fastapi.cli
 import pytest
 
 
+@pytest.mark.skipif(
+    fastapi.cli.cli_main is None,
+    reason="fastapi-cli is not installed (requires fastapi[standard] or fastapi[all])",
+)
 def test_fastapi_cli():
     result = subprocess.run(
         [
