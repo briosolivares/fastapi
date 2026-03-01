@@ -7,6 +7,23 @@ hide:
 
 ## Latest Changes
 
+### Docs
+
+* ✏️ Fix typo in `docs/en/docs/_llm-test.md`. PR [#15007](https://github.com/fastapi/fastapi/pull/15007) by [@adityagiri3600](https://github.com/adityagiri3600).
+* 📝 Update Skill, optimize context, trim and refactor into references. PR [#15031](https://github.com/fastapi/fastapi/pull/15031) by [@tiangolo](https://github.com/tiangolo).
+
+### Internal
+
+* 👥 Update FastAPI People - Contributors and Translators. PR [#15029](https://github.com/fastapi/fastapi/pull/15029) by [@tiangolo](https://github.com/tiangolo).
+* 👥 Update FastAPI GitHub topic repositories. PR [#15036](https://github.com/fastapi/fastapi/pull/15036) by [@tiangolo](https://github.com/tiangolo).
+
+## 0.135.0
+
+### Features
+
+* ✨ Add support for Server Sent Events. PR [#15030](https://github.com/fastapi/fastapi/pull/15030) by [@tiangolo](https://github.com/tiangolo).
+    * New docs: [Server-Sent Events (SSE)](https://fastapi.tiangolo.com/tutorial/server-sent-events/).
+
 ## 0.134.0
 
 ### Features
