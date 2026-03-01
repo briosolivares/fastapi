@@ -268,7 +268,7 @@ async def serialize_response(
     response_content: Any,
     include: IncEx | None = None,
     exclude: IncEx | None = None,
-    by_alias: bool = True,
+    by_alias: bool = False,
     exclude_unset: bool = False,
     exclude_defaults: bool = False,
     exclude_none: bool = False,
